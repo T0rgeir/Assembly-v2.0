@@ -2,7 +2,7 @@ module.exports = function() {
 
 	/* Task 'Pug' */
 	$.gulp.task('pug', function() {
-		return $.gulp.src('dev/pug/pages/*.pug')
+		return $.gulp.src('dev/pug/*.pug')
 			.pipe($.gp.pug({ // Converting pug codes in html
 				pretty: true // Bans on compression
 			}))

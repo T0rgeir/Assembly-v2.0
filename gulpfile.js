@@ -16,5 +16,5 @@ $.path.tasks.forEach(function(taskPath) {
 });
 
 /* Tasks */
-$.gulp.task('default', $.gulp.parallel('sass', 'pug', 'serve', 'watch')); // Default task for developing process
-$.gulp.task('build', $.gulp.parallel('prebuild', 'clean', 'img', 'sass', 'pug')); // Build a project in production
+$.gulp.task('default', $.gulp.parallel('sass:dev', 'pug', 'serve', 'watch')); // Default task for developing process
+$.gulp.task('build', $.gulp.parallel('prebuild', 'clean', 'img', 'sass:build', 'pug')); // Build a project in production
