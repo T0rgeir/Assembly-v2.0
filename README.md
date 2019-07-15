@@ -1,4 +1,3 @@
-##### Assembly v2.0 #####
 **Description:** starter template for a complete and convenient web design process.
 
 **How to use:**
